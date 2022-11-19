@@ -1,4 +1,4 @@
--- Automation 5 demo script
+-- Line Spacing script
 -- Macro that adds line spacing in front of every selected line
 
 local tr = aegisub.gettext
@@ -23,13 +23,3 @@ function add_spacing(subtitles, selected_lines, active_line)
 end
 
 aegisub.register_macro(script_name, tr"Adds spacing to all selected lines", add_spacing)
--- ‫الشخصيات التي تتجسد في عالم خيالي\N‫تحصل على قوى خارقة ، أليس كذلك؟
---{\org(-2000000,0)\fr0.001}
---‫الشخصيات التي تتجسد في عالم خيالي
---{\r}\N
---‫تحصل على قوى خارقة ، أليس كذلك؟
---{\org(-2000000,0)\fr0.001}
---‫الشخصيات التي تتجسد في عالم خيالي
---\N‫
---تحصل على قوى خارقة ، أليس كذلك؟
-
